@@ -18,6 +18,186 @@
   <h1>📈 株価チャート一覧</h1>
   <div class="grid">
     <div class="chart-card">
+      <div class="chart-title">スペースX（TSE:SPCX）</div>
+      <canvas id="chart_SPCX" height="120"></canvas>
+      <script>
+        (function() {
+          const ctx = document.getElementById('chart_SPCX').getContext('2d');
+          new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: ["2026/6/12","2026/6/15","2026/6/16","2026/6/17","2026/6/18","2026/6/22","2026/6/23","2026/6/24","2026/6/25","2026/6/26","2026/6/29","2026/6/30","2026/7/1","2026/7/2","2026/7/6","2026/7/7","2026/7/8","2026/7/9","2026/7/10","2026/7/13","2026/7/14","2026/7/15","2026/7/16","2026/7/17","2026/7/20","2026/7/21","2026/7/22","2026/7/23","2026/7/24","2026/7/27","2026/7/28","2026/7/29","2026/7/30","2026/7/31","2026/8/3","2026/8/4","2026/8/5","2026/8/6","2026/8/7","2026/8/10","2026/8/11","2026/8/12","2026/8/13","2026/8/14","2026/8/17","2026/8/18","2026/8/19","2026/8/20","2026/8/21","2026/8/24","2026/8/25","2026/8/26","2026/8/27","2026/8/28"],
+              datasets: [{
+                data: [160.9499969482422,192.5,211.38999938964844,191.82000732421875,185,154.60000610351562,156.11000061035156,154.5399932861328,153,153.22999572753906,164.19000244140625,170.86000061035156,157.5399932861328,162,160.4199981689453,149.47000122070312,148.3000030517578,152.16000366210938,145.3000030517578,139.13999938964844,136.0800018310547,135.27000427246094,131.11000061035156,123.98999786376953,119.8499984741211,123.54000091552734,115.26000213623047,118.23999786376953,115.06999969482422,113.5,116.41000366210938,112.55000305175781,112.19999694824219,108.37000274658203,114.52999877929688,125.33000183105469,108.2699966430664,114.91999816894531,133.11000061035156,138.74000549316406,133.2899932861328,146.14999389648438,141.2899932861328,140,146.22999572753906,143.33999633789062,139.64999389648438,134,136.97000122070312,135,137.9499969482422,139.6300048828125,140.8699951171875,null],
+                borderColor: '#2962ff',
+                borderWidth: 1.5,
+                pointRadius: 0,
+                fill: false
+              }]
+            },
+            options: {
+              responsive: true,
+              plugins: { legend: { display: false } },
+              scales: {
+                x: { ticks: { maxTicksLimit: 6, font: { size: 10 } } },
+                y: { ticks: { font: { size: 10 } } }
+              }
+            }
+          });
+        })();
+      </script>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">インドフード（TSE:ICBP）</div>
+      <canvas id="chart_ICBP" height="120"></canvas>
+      <script>
+        (function() {
+          const ctx = document.getElementById('chart_ICBP').getContext('2d');
+          new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: [],
+              datasets: [{
+                data: [],
+                borderColor: '#2962ff',
+                borderWidth: 1.5,
+                pointRadius: 0,
+                fill: false
+              }]
+            },
+            options: {
+              responsive: true,
+              plugins: { legend: { display: false } },
+              scales: {
+                x: { ticks: { maxTicksLimit: 6, font: { size: 10 } } },
+                y: { ticks: { font: { size: 10 } } }
+              }
+            }
+          });
+        })();
+      </script>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">サラ通信（TSE:TOWR）</div>
+      <canvas id="chart_TOWR" height="120"></canvas>
+      <script>
+        (function() {
+          const ctx = document.getElementById('chart_TOWR').getContext('2d');
+          new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: [],
+              datasets: [{
+                data: [],
+                borderColor: '#2962ff',
+                borderWidth: 1.5,
+                pointRadius: 0,
+                fill: false
+              }]
+            },
+            options: {
+              responsive: true,
+              plugins: { legend: { display: false } },
+              scales: {
+                x: { ticks: { maxTicksLimit: 6, font: { size: 10 } } },
+                y: { ticks: { font: { size: 10 } } }
+              }
+            }
+          });
+        })();
+      </script>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">マンディリ銀行（TSE:BMRI）</div>
+      <canvas id="chart_BMRI" height="120"></canvas>
+      <script>
+        (function() {
+          const ctx = document.getElementById('chart_BMRI').getContext('2d');
+          new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: [],
+              datasets: [{
+                data: [],
+                borderColor: '#2962ff',
+                borderWidth: 1.5,
+                pointRadius: 0,
+                fill: false
+              }]
+            },
+            options: {
+              responsive: true,
+              plugins: { legend: { display: false } },
+              scales: {
+                x: { ticks: { maxTicksLimit: 6, font: { size: 10 } } },
+                y: { ticks: { font: { size: 10 } } }
+              }
+            }
+          });
+        })();
+      </script>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">カルバファルマ（TSE:KLBF）</div>
+      <canvas id="chart_KLBF" height="120"></canvas>
+      <script>
+        (function() {
+          const ctx = document.getElementById('chart_KLBF').getContext('2d');
+          new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: [],
+              datasets: [{
+                data: [],
+                borderColor: '#2962ff',
+                borderWidth: 1.5,
+                pointRadius: 0,
+                fill: false
+              }]
+            },
+            options: {
+              responsive: true,
+              plugins: { legend: { display: false } },
+              scales: {
+                x: { ticks: { maxTicksLimit: 6, font: { size: 10 } } },
+                y: { ticks: { font: { size: 10 } } }
+              }
+            }
+          });
+        })();
+      </script>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">ロンドンスマトラ（TSE:LSIP）</div>
+      <canvas id="chart_LSIP" height="120"></canvas>
+      <script>
+        (function() {
+          const ctx = document.getElementById('chart_LSIP').getContext('2d');
+          new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: [],
+              datasets: [{
+                data: [],
+                borderColor: '#2962ff',
+                borderWidth: 1.5,
+                pointRadius: 0,
+                fill: false
+              }]
+            },
+            options: {
+              responsive: true,
+              plugins: { legend: { display: false } },
+              scales: {
+                x: { ticks: { maxTicksLimit: 6, font: { size: 10 } } },
+                y: { ticks: { font: { size: 10 } } }
+              }
+            }
+          });
+        })();
+      </script>
+    </div>
+    <div class="chart-card">
       <div class="chart-title">ＥＮＥＣＨＡＮＧＥ（TSE:4169）</div>
       <canvas id="chart_4169" height="120"></canvas>
       <script>
